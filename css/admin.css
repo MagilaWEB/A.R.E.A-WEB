@@ -1,0 +1,15 @@
+.admin_panel_post {
+  background: rgba(0, 0, 0, 0.7);
+  border: solid blanchedalmond 2px;
+  border-radius: 2%;
+}
+
+.admin_panel_post .header {
+  text-align: center;
+  font-size: 110%;
+}
+.admin_panel_post .panel input,
+.admin_panel_post .panel textarea {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,36 @@
+.supro{
+	text-align: center;
+	width: 500px;
+	height: 300px;
+	margin: 90px auto;
+	box-shadow: 0 0px 5px 3px #000;
+	border-radius: 10px 10px 5px 5px;
+	background: url(../image/texturs_bloc/right_top2.webp) right top no-repeat,url(../image/texturs_bloc/left_top2.webp) left top no-repeat,url(../image/texturs_bloc/top2.webp) left top repeat-x,url(../image/texturs_bloc/right_bottom2.webp) right bottom 0 no-repeat,url(../image/texturs_bloc/left_bottom2.webp) left bottom no-repeat,url("../image/texturs_bloc/SideRight.webp") right top repeat-y,url("../image/texturs_bloc/SideLeft.webp") left top repeat-y,url("../image/texturs_bloc/bottom2.webp") left bottom repeat-x,url(../image/texturs_bloc/fon3.webp) repeat;
+	padding: 12px
+}
+
+h1 {
+	font-weight: 100;
+	color: burlywood;
+	font-family: 'RUSBoycott';
+	font-size: 50px;
+}
+h2 {
+	font-weight: 100;
+	color: bisque;
+	font-family: 'Graffiti1CTT';
+	padding: 10px;
+	margin: 0px 30px;
+	font-size: 29px;
+}
+.errorText {
+	color: darkgoldenrod;
+	font-family: 'Graffiti1CTT';
+	padding: 10px;
+	margin: 0px 30px;
+	font-size: 18px;
+}
+a {
+	color : #4466FF;
+	text-decoration: none;
+}

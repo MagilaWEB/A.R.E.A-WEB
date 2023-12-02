@@ -1,0 +1,18 @@
+RewriteEngine on
+#редирект если запрос без www
+RewriteCond %{HTTP_HOST} ^test-area-1\.tk$ [NC]
+RewriteRule ^(.*)$ https://www.test-area-1.tk/$1 [R=301,L]
+
+#Редирект со главной страниц дубликатов
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTPS/
+RewriteRule ^index\.php$ http://www.test-area-1.tk/ [R=301,L]
+
+#Редирект на файл движка
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php
+
+#показать все ошибки кроме предупреждений (Notice)
+php_value error_reporting "E_ALL"
+
+AddDefaultCharset UTF-8

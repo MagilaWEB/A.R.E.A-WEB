@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Graffiti1CTT";
+  src: url("Graffiti1CTT-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Graffiti1CTT-Regular.woff2") format("woff2"),
+    url("Graffiti1CTT-Regular.woff") format("woff"),
+    url("Graffiti1CTT-Regular.svg#Graffiti1CTT-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RUSBoycott";
+  src: url("RUSBoycott.eot?#iefix") format("embedded-opentype"),
+    url("RUSBoycott.woff2") format("woff2"),
+    url("RUSBoycott.woff") format("woff"),
+    url("RUSBoycott.svg#RUSBoycott") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF Fuel Pro";
+  src: local("PFFuelPro-Regular"),
+    url("hinted-PFFuelPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("hinted-PFFuelPro-Regular.woff2") format("woff2"),
+    url("hinted-PFFuelPro-Regular.woff") format("woff"),
+    url("hinted-PFFuelPro-Regular.svg#PFFuelPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Capture it";
+  src: local("Capture it"), local("Captureit"),
+    url("hinted-Captureit.woff2") format("woff2"),
+    url("hinted-Captureit.woff") format("woff"),
+    url("hinted-Captureit.svg#Captureit") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "imjs";
+  src: local("imjs"), local("Captureit"),
+    url("SegoeUIEmoji.woff2") format("woff2"),
+    url("SegoeUIEmoji.woff") format("woff"),
+    url("SegoeUIEmoji.svg#Captureit") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url("fontello.eot?1633699");
+  src: url("fontello.eot?1633699#iefix") format("embedded-opentype"),
+    url("fontello.woff2?1633699") format("woff2"),
+    url("fontello.woff?1633699") format("woff"),
+    url("fontello.ttf?1633699") format("truetype"),
+    url("fontello.svg?1633699#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?1633699#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-mail:before {
+  content: "\e800";
+} /* '' */
+.icon-heart:before {
+  content: "\e801";
+} /* '' */
+.icon-heart-empty:before {
+  content: "\e802";
+} /* '' */
+.icon-user:before {
+  content: "\e803";
+} /* '' */
+.icon-cancel:before {
+  content: "\e804";
+} /* '' */
+.icon-cancel-circled:before {
+  content: "\e805";
+} /* '' */
+.icon-thumbs-up:before {
+  content: "\e806";
+} /* '' */
+.icon-thumbs-down:before {
+  content: "\e807";
+} /* '' */
+.icon-download:before {
+  content: "\e808";
+} /* '' */
+.icon-upload:before {
+  content: "\e809";
+} /* '' */
+.icon-volume-off:before {
+  content: "\e80a";
+} /* '' */
+.icon-volume-down:before {
+  content: "\e80b";
+} /* '' */
+.icon-volume-up:before {
+  content: "\e80c";
+} /* '' */
+.icon-bell:before {
+  content: "\e80d";
+} /* '' */
+.icon-play-circled2:before {
+  content: "\e80e";
+} /* '' */
+.icon-resize-full:before {
+  content: "\e80f";
+} /* '' */
+.icon-resize-small:before {
+  content: "\e810";
+} /* '' */
+.icon-cancel-circled2:before {
+  content: "\e811";
+} /* '' */
+.icon-ok:before {
+  content: "\e812";
+} /* '' */
+.icon-ok-circled:before {
+  content: "\e813";
+} /* '' */
+.icon-ok-circled2:before {
+  content: "\e814";
+} /* '' */
+.icon-eye:before {
+  content: "\e815";
+} /* '' */
+.icon-comment-alt:before {
+  content: "\e816";
+} /* '' */
+.icon-users:before {
+  content: "\e817";
+} /* '' */
+.icon-mail-alt:before {
+  content: "\f0e0";
+} /* '' */
+.icon-bell-alt:before {
+  content: "\f0f3";
+} /* '' */
+.icon-play-circled:before {
+  content: "\f144";
+} /* '' */
+.icon-thumbs-up-alt:before {
+  content: "\f164";
+} /* '' */
+.icon-thumbs-down-alt:before {
+  content: "\f165";
+} /* '' */
+.icon-user-plus:before {
+  content: "\f234";
+} /* '' */
+.icon-user-times:before {
+  content: "\f235";
+} /* '' */
